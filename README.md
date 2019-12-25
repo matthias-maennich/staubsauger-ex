@@ -1,4 +1,6 @@
-Example Application that reads and controls (wake / sleep) an [SDS011](https://cdn-reichelt.de/documents/datenblatt/X200/SDS011-DATASHEET.pdf) Sensor via an USB-Serial-Adapter.
+Example Application that reads and controls a [SDS011](https://cdn-reichelt.de/documents/datenblatt/X200/SDS011-DATASHEET.pdf) (Particle Matter Sensor) via an USB-Serial-Adapter.
+
+![](example.png)
 
 ## Installation & Usage
 
