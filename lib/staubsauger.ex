@@ -67,7 +67,7 @@ defmodule Staubsauger do
   defp parse_data(<<0xAA, 0xC5, 0x06, 1, 0, _::40>>) do
     {:ok, :sleep}
   end
-   defp parse_data(<<0xAA, 0xC5, 0x06, 1, 1, _::40>>) do
+  defp parse_data(<<0xAA, 0xC5, 0x06, 1, 1, _::40>>) do
     {:ok, :wake}
   end
 
@@ -84,7 +84,7 @@ defmodule Staubsauger do
     end
   end
 
-    defp colorize_pm25_level(pm25) do
+  defp colorize_pm25_level(pm25) do
     pm25_text = Integer.to_string(pm25)
     case pm25 do
       v when v > 50 -> Color.red(pm25_text)
